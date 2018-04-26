@@ -1,0 +1,9 @@
+<templateSet group="JavaScript">
+  <template name="ezzhedie" value="//region --- 常量 ---&#10;$a$&#10;//endregion" description="代码折叠" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

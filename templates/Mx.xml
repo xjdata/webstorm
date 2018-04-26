@@ -1,0 +1,17 @@
+<templateSet group="Mx">
+  <template name="clg" value="console.log($value$);" description="console.log(....)" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="mx_endofdayminutes" value="moment().endOf('day').diff(moment(), 'minutes')" description="到今天结束剩余分钟数" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
