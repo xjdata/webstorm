@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".roadhogrc" type="JSON" />
+      <mapping pattern=".webpackrc.dist" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
